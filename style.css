@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+button {
+  font-family: inherit;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 12px;
+  transition: 200ms ease-out;
+}
+h1 {
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgba(213, 51, 253, 0.527);
+  color: white;
+}
+
+p {
+  font-size: ;
+  font-weight: ;
+  border: 1px solid white;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  color: white;
+  place-content: center;
+  direction: rtl;
+  font-family: "Vazirmatn", serif;
+  background: linear-gradient(
+    125deg,
+    violet 20%,
+    rgba(238, 130, 238, 0.582) 140%
+  );
+  animation: up 2s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  justify-self: center;
+}
+
+@keyframes up {
+  from {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
